@@ -22,7 +22,7 @@ const Navbar = () => {
           height={53}
           alt="Logo"
         />
-        <ul className="hidden lg:flex gap-7 ">
+        <ul className="hidden lg:flex gap-6 ">
           {navLink.map((value, index) => {
             return (
               <li key={index}>

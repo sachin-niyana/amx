@@ -2,6 +2,7 @@
 import emailjs from "emailjs-com";
 import { useState } from "react";
 import { Location, Message } from "./Icon";
+import Link from "next/link";
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -14,7 +15,6 @@ const Contact = () => {
   const submitHandler = (e) => {
     e.preventDefault();
 
-    // Use the correct emailjs.send method with the template parameters
     emailjs.sendForm(
       "service_7v41gw7",
       "template_1tzdvgw",
@@ -112,9 +112,13 @@ const Contact = () => {
             <div className="w-[52px] h-[52px] group-hover:bg-light-white bg-green rounded-full flex justify-center items-center transition-all ease-in-out duration-700">
               <Message />
             </div>
-            <p className="text-light-gray font-Inter font-normal sm:text-sm text-xsm">
+            <Link
+              href="https://amxcapital.co.uk/"
+              target="_blank"
+              className="text-light-gray font-Inter font-normal sm:text-sm text-xsm"
+            >
               contact@amxcapital.co.uk
-            </p>
+            </Link>
           </div>
           <div className="flex justify-center">
             <div className="sm:w-[2px] w-[230px] sm:h-[47px] h-[2px] bg-blue-green"></div>
@@ -123,8 +127,8 @@ const Contact = () => {
             <div className="w-[52px] h-[52px] group-hover:bg-light-white bg-green rounded-full flex justify-center items-center transition-all ease-in-out duration-700">
               <Location />
             </div>
-            <p className="text-light-gray font-Inter font-normal sm:text-sm text-xsm">
-              contact@amxcapital.co.uk
+            <p className="text-light-gray font-Inter font-normal sm:text-sm text-xsm max-w-[300px]">
+              Fenchurch House, 12 King St, Nottingham NG1 2AS
             </p>
           </div>
         </div>

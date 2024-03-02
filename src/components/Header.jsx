@@ -26,7 +26,7 @@ const Header = () => {
         </div>
         <div className="flex justify-end me-20 mt-[34px]">
           <div className="group rounded-full">
-            <div className="sm:w-[148px] cursor-pointer sm:h-[148px] w-32 h-32 border-2 group-hover:border-opacity-0 transition-all ease-in-out !duration-1000 border-black-gray rounded-full flex justify-center items-center relative overflow-hidden">
+            <div className="sm:w-[148px] sm:h-[148px] w-32 h-32 border-2 group-hover:border-opacity-0 transition-all ease-in-out !duration-1000 border-black-gray rounded-full flex justify-center items-center relative overflow-hidden">
               <p className="font-Oswald font-semibold z-10 sm:text-sm flex items-center text-xsm text-bomboy group-hover:text-light-white transition-all ease-in-out duration-300">
                 Get Started{" "}
                 <span>

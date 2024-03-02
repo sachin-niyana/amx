@@ -10,13 +10,13 @@ const Expertise = () => {
           {expertise.map((value, index) => (
             <div key={index} className="relative w-full flex justify-center">
               <Image
-                className="max-w-[500px] w-full sm:h-[356px] min-[400px]:h-[300px] h-[200px] object-cover rounded-[14px]"
+                className="max-w-[500px] hover:scale-105 transition-all ease-in-out duration-700 w-full sm:h-[356px] min-[400px]:h-[300px] h-[200px] object-cover rounded-[14px]"
                 width={364}
                 height={356}
                 src={value.image}
                 alt="expertise"
               />
-              <p className="absolute bottom-[8%] left-[50%] translate-x-[-50%] text-light-white font-Oswald font-semibold sm:text-lg text-sm">
+              <p className="absolute sm:bottom-[8%] bottom-[6%] left-[50%] translate-x-[-50%] text-light-white font-Oswald font-semibold sm:text-lg text-sm">
                 {value.title}
               </p>
             </div>
