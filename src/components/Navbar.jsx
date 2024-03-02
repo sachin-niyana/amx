@@ -28,7 +28,7 @@ const Navbar = () => {
               <li key={index}>
                 <Link
                   aria-label={value.title}
-                  className="text-light-white hover:text-green font-inter font-medium sm:text-sm text-xsm transition-all ease-in-out duration-300"
+                  className="text-light-white hover:text-green font-inter font-normal sm:text-sm text-xsm transition-all ease-in-out duration-300"
                   key={index}
                   href={value.path}
                 >
@@ -75,7 +75,7 @@ const Navbar = () => {
                 <li key={index}>
                   <Link
                     aria-label={value.title}
-                    className="text-white font-inter font-medium sm:text-sm text-xsm opacity-75 hover:opacity-100 transition-all ease-in-out duration-300"
+                    className="text-white font-inter font-normal sm:text-sm text-xsm opacity-75 hover:opacity-100 transition-all ease-in-out duration-300"
                     key={index}
                     href={value.path}
                     onClick={sidebarHandler}

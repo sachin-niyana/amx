@@ -19,3 +19,19 @@
   fill: white !important;
   transition: all 300ms linear !important;
 }
+.icon-svg-3 svg rect {
+  fill: #00ffcc !important;
+  transition: all 700ms linear !important;
+}
+.group:hover .icon-svg-3 {
+  fill: #0a0a0a !important;
+  transition: all 700ms linear !important;
+}
+.icon-svg-4 path {
+  fill: #0a0a0a !important;
+  transition: all 700ms linear !important;
+}
+.group:hover .icon-svg-4 path {
+  fill: #3ca59d !important;
+  transition: all 700ms linear !important;
+}

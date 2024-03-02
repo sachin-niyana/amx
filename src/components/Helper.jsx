@@ -1,4 +1,4 @@
-import { Capital, Committed, Decode, Industry } from "./Icon";
+import { Capital, Committed, Decode, Industry, Star } from "./Icon";
 
 export const navLink = [
   { title: "Home", path: "#Home" },
@@ -32,5 +32,31 @@ export const whatsCard = [
     discripstion:
       "In an industry rooted in tradition, AMX Capital stands out with a bold spirit of innovation. We bring a dynamic perspective to the conventional, ensuring your investments not only survive but thrive.",
     image: <Industry />,
+  },
+];
+export const reviews = [
+  {
+    discripstion:
+      "Lorem ipsum dolor sit amet consectetur. Tincidunt faucibus tempor aliquet adipiscing morbi donec quam diam. Mauris malesuada diam ullamcorper volutpat proin tellus placerat. In lacus diam facilisi scelerisque.",
+    image: <Star />,
+    date: "Jan 13, 2024",
+    title: "Exceptional Skill",
+    link: "Frans Schneider",
+  },
+  {
+    discripstion:
+      "Lorem ipsum dolor sit amet consectetur. Tincidunt faucibus tempor aliquet adipiscing morbi donec quam diam. Mauris malesuada diam ullamcorper volutpat proin tellus placerat. In lacus diam facilisi scelerisque.",
+    image: <Star />,
+    date: "Jan 13, 2024",
+    title: "Exceptional Skill",
+    link: "Frans Schneider",
+  },
+  {
+    discripstion:
+      "Lorem ipsum dolor sit amet consectetur. Tincidunt faucibus tempor aliquet adipiscing morbi donec quam diam. Mauris malesuada diam ullamcorper volutpat proin tellus placerat. In lacus diam facilisi scelerisque.",
+    image: <Star />,
+    date: "Jan 13, 2024",
+    title: "Exceptional Skill",
+    link: "Frans Schneider",
   },
 ];

@@ -26,6 +26,8 @@ module.exports = {
         "header-bg": "url('/assets/background/header-bg.png')",
         "Expertise-bg": "url('/assets/background/expertise-bg.png')",
         "choose-bg": "url('/assets/background/choose-bg.png')",
+        "reviews-bg": "url('/assets/background/reviews-bg.png')",
+        "contact-bg": "url('/assets/background/contact-bg.png')",
       },
       colors: {
         "Rich-Black": "#0a0a0a",
@@ -39,6 +41,10 @@ module.exports = {
         bomboy: "#b5b5b5",
         "light-white": "#fefefe",
         "light-black": "#3b3b3b",
+        "light-color": "#e6e6e6",
+        "white-green": "#3a4e4a",
+        "black-green": "#09221d",
+        "blue-green": "#00ffcc",
       },
       boxShadow: {
         greenShadow: "0px 0px 10px 4px #13292b",

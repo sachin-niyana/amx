@@ -5,15 +5,12 @@ import { Distinctiveness, Experience, Operations } from "./Icon";
 const Expertise = () => {
   return (
     <div className="bg-Expertise-bg bg-cover" id="AboutUs">
-      <div className="container max-w-[1176px] mx-auto px-3 lg:pt-[94px] lg:pb-[90px] md:py-16 sm:py-14 py-12">
-        <div className="flex flex-wrap justify-center">
+      <div className="container max-w-[1152px] mx-auto px-3 lg:pt-[94px] lg:pb-[90px] md:py-16 sm:py-14 py-12">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {expertise.map((value, index) => (
-            <div
-              key={index}
-              className="relative lg:w-4/12 sm:w-6/12 w-full flex justify-center sm:p-3 py-3"
-            >
+            <div key={index} className="relative w-full flex justify-center">
               <Image
-                className="sm:w-[364px] sm:h-[356px] !w-[450px] !h-[300px] object-cover rounded-[14px]"
+                className="max-w-[500px] w-full sm:h-[356px] min-[400px]:h-[300px] h-[200px] object-cover rounded-[14px]"
                 width={364}
                 height={356}
                 src={value.image}
@@ -29,7 +26,7 @@ const Expertise = () => {
           <div className="lg:w-5/12 w-full">
             <div className="flex justify-center">
               <div className="flex flex-col">
-                <h3 className="font-Oswald font-bold md:text-2xl sm:text-xl text-lg text-light-white lg:text-start text-center">
+                <h3 className="font-Oswald font-bold uppercase md:text-2xl sm:text-xl text-lg text-light-white lg:text-start text-center">
                   Who <span className="text-green">We Are</span>
                 </h3>
                 <p className="font-Inter font-normal sm:text-sm text-xsm me-3 lg:text-start text-center text-light-white opacity-80 max-w-[409px] md:pt-4 sm:pt-2">
@@ -47,10 +44,10 @@ const Expertise = () => {
                 <div className="group cursor-pointer relative">
                   <div className="h-full w-full rounded-2xl transition-all ease-in-out group-hover:rotate-[-3deg] duration-700 absolute bg-light-white"></div>
                   <div className="max-w-[311px] min-h-[351px] rounded-2xl transition-all ease-in-out duration-700  group-hover:bg-green group-hover:border-Rich-Black border-2 border-light-white bg-light-white py-3 px-[19px] relative">
-                    <div className="w-[52px] h-[52px] group-hover:bg-light-white bg-green rounded-full flex justify-center items-center transition-all ease-in-out duration-700">
+                    <div className="w-[52px] h-[52px] group-hover:bg-light-white bg-green rounded-full flex justify-center items-center c">
                       <Experience />
                     </div>
-                    <h4 className="font-Oswald font-semibold transition-all ease-in-out duration-700 group-hover:text-light-white text-Rich-Black sm:text-md text-sm pt-[15px]">
+                    <h4 className="font-Oswald font-semibold uppercase transition-all ease-in-out duration-700 group-hover:text-light-white text-Rich-Black sm:text-md text-sm pt-[15px]">
                       Expertise
                     </h4>
                     <p className="text-light-black font-Inter transition-all ease-in-out duration-700 group-hover:text-light-white font-normal sm:text-sm text-xsm pt-1.5">
@@ -66,7 +63,7 @@ const Expertise = () => {
                     <div className="w-[52px] h-[52px] group-hover:bg-light-white bg-green rounded-full flex justify-center items-center transition-all ease-in-out duration-700">
                       <Operations />
                     </div>
-                    <h4 className="font-Oswald font-semibold transition-all ease-in-out duration-700 group-hover:text-light-white text-Rich-Black sm:text-md text-sm pt-[15px]">
+                    <h4 className="font-Oswald font-semibold transition-all uppercase ease-in-out duration-700 group-hover:text-light-white text-Rich-Black sm:text-md text-sm pt-[15px]">
                       Operations
                     </h4>
                     <p className="text-light-black font-Inter transition-all ease-in-out duration-700 group-hover:text-light-white font-normal sm:text-sm text-xsm pt-1.5">
@@ -84,7 +81,7 @@ const Expertise = () => {
                   <div className="w-[52px] h-[52px] group-hover:bg-light-white bg-green rounded-full flex justify-center items-center transition-all ease-in-out duration-700">
                     <Distinctiveness />
                   </div>
-                  <h4 className="font-Oswald font-semibold transition-all ease-in-out duration-700 group-hover:text-light-white text-Rich-Black sm:text-md text-sm pt-[15px]">
+                  <h4 className="font-Oswald font-semibold uppercase transition-all ease-in-out duration-700 group-hover:text-light-white text-Rich-Black sm:text-md text-sm pt-[15px]">
                     Distinctiveness
                   </h4>
                   <p className="text-light-black font-Inter transition-all ease-in-out duration-700 group-hover:text-light-white font-normal sm:text-sm text-xsm pt-1.5">
