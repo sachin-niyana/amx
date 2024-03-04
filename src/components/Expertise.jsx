@@ -44,7 +44,7 @@ const Expertise = () => {
                 <div className="group cursor-pointer relative">
                   <div className="h-full w-full rounded-2xl transition-all ease-in-out group-hover:rotate-[-3deg] duration-700 absolute bg-light-white"></div>
                   <div className="max-w-[311px] min-h-[351px] rounded-2xl transition-all ease-in-out duration-700  group-hover:bg-green group-hover:border-Rich-Black border-2 border-light-white bg-light-white py-3 px-[19px] relative">
-                    <div className="w-[52px] h-[52px] group-hover:bg-light-white bg-green rounded-full flex justify-center items-center c">
+                    <div className="w-[52px] h-[52px] group-hover:bg-light-white bg-green rounded-full flex justify-center items-center transition-all ease-in-out duration-700">
                       <Experience />
                     </div>
                     <h4 className="font-Oswald font-semibold uppercase transition-all ease-in-out duration-700 group-hover:text-light-white text-Rich-Black sm:text-md text-sm pt-[15px]">

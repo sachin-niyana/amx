@@ -12,7 +12,7 @@ const Choose = () => {
           {whatsCard.map((value, index) => (
             <div key={index} className="w-full flex justify-center">
               <div className="group">
-                <div className="w-full min-[1050px]:min-h-[439px] md:min-h-[465px] min-[450px]:min-h-[420px] min-h-[320px] px-3 py-5 bg-dark-black rounded-[14px] border-2 border-light-green group-hover:border-green group-hover:shadow-greenShadow transition-all ease-in-out duration-700 cursor-pointer">
+                <div className="w-full min-[1050px]:min-h-[439px] md:min-h-[465px] min-[450px]:min-h-[420px] min-h-[320px] px-3 py-5 bg-dark-black rounded-[14px] border-2 border-light-green group-hover:border-green group-hover:shadow-greenShadow group-hover:bg-opacity-50 transition-all ease-in-out duration-700 cursor-pointer">
                   <div className="w-[70px] h-[70px] group-hover:bg-green mx-auto bg-light-white rounded-full flex justify-center items-center transition-all ease-in-out duration-700">
                     {value.image}
                   </div>
@@ -32,18 +32,18 @@ const Choose = () => {
         </h3>
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 md:mt-[52px] sm:mt-10 mt-7">
           <div className="w-full flex justify-center">
-            <div className="max-w-[558px] sm:min-h-[545px] md:p-6 sm:p-5 p-4 bg-dark-black rounded-[14px] border-2 border-light-green hover:border-green hover:shadow-greenShadow transition-all ease-in-out duration-700 cursor-pointer">
+            <div className="max-w-[558px] sm:min-h-[545px] md:p-6 sm:p-5 p-4 bg-dark-black group-hover:bg-opacity-50 rounded-[14px] border-2 border-light-green hover:border-green hover:shadow-greenShadow transition-all ease-in-out duration-700 cursor-pointer">
               <Image
                 width={558}
                 height={545}
                 src="/assets/choose/delivering.png"
                 alt="delivering"
               />
-              <p className="font-Inter font-normal text-light-white sm:text-xmd text-sm pt-[18px]">
+              <p className="font-Inter font-normal text-gray sm:text-xmd text-sm pt-[18px]">
                 At AMX Capital, we are dedicated to delivering an unparalleled
                 and innovative world-class experience to our clients.
               </p>
-              <p className="font-Inter font-normal text-light-white sm:text-xmd text-sm">
+              <p className="font-Inter font-normal text-gray sm:text-xmd text-sm">
                 Our unwavering commitment to risk management and capital
                 preservation is the cornerstone of everything we do, ensuring a
                 secure and prosperous journey for each client we serve.
@@ -51,19 +51,19 @@ const Choose = () => {
             </div>
           </div>
           <div className="w-full flex justify-center">
-            <div className="max-w-[558px] sm:min-h-[545px] md:p-6 sm:p-5 p-4 bg-dark-black rounded-[14px] border-2 border-light-green hover:border-green hover:shadow-greenShadow transition-all ease-in-out duration-700 cursor-pointer">
+            <div className="max-w-[558px] sm:min-h-[545px] md:p-6 sm:p-5 p-4 bg-dark-black group-hover:bg-opacity-50 rounded-[14px] border-2 border-light-green hover:border-green hover:shadow-greenShadow transition-all ease-in-out duration-700 cursor-pointer">
               <Image
                 width={558}
                 height={545}
-                src="/assets/choose/delivering.png"
-                alt="delivering"
+                src="/assets/choose/technology.png"
+                alt="technology"
               />
-              <p className="font-Inter font-normal text-light-white sm:text-xmd text-sm pt-[18px]">
-                We leverage cutting-edge technology and our analysts' advanced
-                comprehension of both fundamental and macroeconomics to deliver
-                a distinctive service that sets us apart.
+              <p className="font-Inter font-normal text-gray sm:text-xmd text-sm pt-[18px]">
+                We leverage cutting-edge technology and our analysts&apos;
+                advanced comprehension of both fundamental and macroeconomics to
+                deliver a distinctive service that sets us apart.
               </p>
-              <p className="font-Inter font-normal text-light-white sm:text-xmd text-sm">
+              <p className="font-Inter font-normal text-gray sm:text-xmd text-sm">
                 Our in-house research team consistently explores global
                 opportunities in leading industries, empowering our clients to
                 capitalise on strategic investment prospects.

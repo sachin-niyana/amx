@@ -127,7 +127,7 @@ const Contact = () => {
             <div className="w-[52px] h-[52px] group-hover:bg-light-white bg-green rounded-full flex justify-center items-center transition-all ease-in-out duration-700">
               <Location />
             </div>
-            <p className="text-light-gray font-Inter font-normal sm:text-sm text-xsm max-w-[300px]">
+            <p className="text-light-gray font-Inter font-normal sm:text-sm text-xsm sm:max-w-[230px] max-w-[180px]">
               Fenchurch House, 12 King St, Nottingham NG1 2AS
             </p>
           </div>

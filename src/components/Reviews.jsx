@@ -10,7 +10,12 @@ const Reviews = () => {
           Re<span className="text-green">views</span>
         </h3>
         <div className="flex justify-center sm:mt-[19px] mt-3">
-          <Image width={190} height={34} src="/assets/reviews/star.png" />
+          <Image
+            width={190}
+            height={34}
+            src="/assets/reviews/star.png"
+            alt="reviews"
+          />
         </div>
         <div className="flex justify-center items-center mt-3.5 gap-3">
           <div className="flex justify-center gap-2.5 items-center">

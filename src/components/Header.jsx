@@ -7,7 +7,7 @@ const Header = () => {
     <div className="bg-header-bg bg-cover">
       <Navbar />
       <div className="container max-w-[1152px] mx-auto px-3 lg:pt-[122px] pt-24 sm:pb-[52px] pb-12">
-        <h1 className="text-green font-bold font-Oswald xl:text-4xl lg:text-3xl md:text-2xl text-xl uppercase text-start leading-[120%] xl:max-w-[930px] lg:max-w-[720px] md:max-w-[640px] min-[560px]:max-w-[530px] max-w-[300px] sm:mx-auto">
+        <h1 className="text-green font-bold font-Oswald xl:text-4xl lg:text-3xl md:text-2xl text-xl uppercase text-start leading-[120%] xl:max-w-[930px] lg:max-w-[720px] md:max-w-[640px] min-[560px]:max-w-[530px] max-w-[280px] mx-auto">
           Investment{" "}
           <span className="text-light-white">Optimization Strategies</span>
         </h1>
@@ -24,9 +24,9 @@ const Header = () => {
             </div>
           </div>
         </div>
-        <div className="flex justify-end me-20 mt-[34px]">
+        <div className="flex justify-end sm:me-20 me-12 mt-[34px]">
           <div className="group rounded-full">
-            <div className="sm:w-[148px] sm:h-[148px] w-32 h-32 border-2 group-hover:border-opacity-0 transition-all ease-in-out !duration-1000 border-black-gray rounded-full flex justify-center items-center relative overflow-hidden">
+            <div className="sm:w-[148px] cursor-pointer sm:h-[148px] w-28 h-28 border-2 group-hover:border-opacity-0 transition-all ease-in-out !duration-1000 border-black-gray rounded-full flex justify-center items-center relative overflow-hidden">
               <p className="font-Oswald font-semibold z-10 sm:text-sm flex items-center text-xsm text-bomboy group-hover:text-light-white transition-all ease-in-out duration-300">
                 Get Started{" "}
                 <span>
@@ -34,7 +34,7 @@ const Header = () => {
                 </span>
               </p>
               <div className="absolute right-[-10%] bottom-[-10%] group-hover:bottom-0 group-hover:right-0 transition-all ease-in-out duration-300">
-                <div className="w-[62px] h-[62px] sm:group-hover:w-[150px] sm:group-hover:h-[150px] group-hover:w-32 group-hover:h-32 bg-green rounded-full transition-all ease-in-out duration-700"></div>
+                <div className="w-[62px] h-[62px] sm:group-hover:w-[150px] sm:group-hover:h-[150px] group-hover:w-28 group-hover:h-28 bg-green rounded-full transition-all ease-in-out duration-700"></div>
               </div>
             </div>
           </div>

@@ -7,16 +7,18 @@ const Footer = () => {
   return (
     <div className="bg-reviews-bg bg-cover">
       <div className="container max-w-[1152px] mx-auto px-3 lg:pt-14 lg:pb-16 md:py-12 sm:py-10 py-8">
-        <div className="flex sm:flex-row flex-col justify-between sm:items-center">
+        <div className="flex sm:flex-row flex-col justify-between items-center">
           <div className="flex flex-col">
-            <Image
-              className="md:w-[208px] md:h-[104px] sm:w-[180px] sm:h-[80px]"
-              src="/assets/header/logo.png"
-              width={150}
-              height={60}
-              alt="Logo"
-            />
-            <p className="font-Inter font-normal sm:text-sm text-xsm lg:max-w-[455px] md:max-w-[420px] sm:max-w-[300px] text-light-white opacity-80 pt-3">
+            <div className="flex sm:justify-start justify-center">
+              <Image
+                className="md:w-[208px] md:h-[104px] sm:w-[180px] sm:h-[80px]"
+                src="/assets/header/logo.png"
+                width={150}
+                height={60}
+                alt="Logo"
+              />
+            </div>
+            <p className="font-Inter font-normal sm:text-start text-center sm:text-sm text-xsm lg:max-w-[455px] md:max-w-[420px] sm:max-w-[300px] text-light-white opacity-80 pt-3">
               At AMX Capital our mission is to assist you in wealth creation,
               multiplication & preservation. We’re committed to providing a
               holistic financial service and guidance to ensure our clients
